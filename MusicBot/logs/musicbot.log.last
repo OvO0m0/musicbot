@@ -1,0 +1,124 @@
+[114.008903503] 2019-10-10 21:32:51,085 - INFO - launcher: Starting sanity checks
+[115.007877350] 2019-10-10 21:32:51,086 - INFO - launcher: Checking for Python 3.5+
+[115.007877350] 2019-10-10 21:32:51,086 - INFO - launcher: Checking console encoding
+[115.007877350] 2019-10-10 21:32:51,086 - INFO - launcher: Setting console encoding to UTF-8
+[116.008996964] 2019-10-10 21:32:51,087 - INFO - launcher: Ensuring we're in the right environment
+[119.007825851] 2019-10-10 21:32:51,090 - INFO - launcher: Adding local bins/ folder to path
+[1757.140159607] 2019-10-10 21:32:52,728 - INFO - launcher: Required checks passed.
+[1771.141290665] 2019-10-10 21:32:52,742 - INFO - launcher: Optional checks passed.
+[1772.141218185] 2019-10-10 21:32:52,743 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[3.3367795944213867] 2019-10-10 21:32:54,308 - WARNING - musicbot.config | In config.py::MainThread(9624), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[3.4749140739440918] 2019-10-10 21:32:54,446 - INFO - musicbot.config | In config.py::MainThread(9624), line 132 in run_checks: Using i18n: config/i18n/en.json
+[3.4789099693298340] 2019-10-10 21:32:54,450 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 225 in _setup_logging: Set logging level to INFO
+[3.4819109439849854] 2019-10-10 21:32:54,453 - DEBUG - musicbot.json | In json.py::MainThread(9624), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[3.9745430946350098] 2019-10-10 21:32:54,946 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 90 in __init__: Starting MusicBot release-260819
+[3.9755442142486572] 2019-10-10 21:32:54,947 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.3209152221679688] 2019-10-10 21:32:55,292 - WARNING - musicbot.bot | In bot.py::MainThread(9624), line 123 in __init__: There was a problem initialising the connection to Spotify. Is your client ID and secret correct? Details: Issue making POST request to https://accounts.spotify.com/api/token: [400] {'error_description': 'Invalid client', 'error': 'invalid_client'}. Continuing anyway in 5 seconds...
+[12.3886253833770752] 2019-10-10 21:33:03,360 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 951 in on_ready: Connection established, ready to go.
+[12.3886253833770752] 2019-10-10 21:33:03,360 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 342 in _cache_app_info: Caching app info
+[12.6226439476013184] 2019-10-10 21:33:03,594 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[12.6246452331542969] 2019-10-10 21:33:03,596 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 783 in _scheck_ensure_env: Deleted old audio cache
+[12.6246452331542969] 2019-10-10 21:33:03,596 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 789 in _scheck_server_permissions: Checking server permissions
+[12.6256449222564697] 2019-10-10 21:33:03,597 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[12.6256449222564697] 2019-10-10 21:33:03,597 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 797 in _scheck_configs: Validating config
+[12.6256449222564697] 2019-10-10 21:33:03,597 - DEBUG - musicbot.config | In config.py::MainThread(9624), line 236 in async_validate: Validating options...
+[12.6256449222564697] 2019-10-10 21:33:03,597 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 800 in _scheck_configs: Validating permissions config
+[12.6256449222564697] 2019-10-10 21:33:03,597 - DEBUG - musicbot.permissions | In permissions.py::MainThread(9624), line 94 in async_validate: Validating permissions...
+[12.6256449222564697] 2019-10-10 21:33:03,597 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 968 in on_ready: Connected: 631812448373964800/NiNick#2663
+[12.6266462802886963] 2019-10-10 21:33:03,598 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 976 in on_ready: Owner:     518087838982733859/CiiQ#7986
+
+[12.6266462802886963] 2019-10-10 21:33:03,598 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 979 in on_ready: Guild List:
+[12.6276454925537109] 2019-10-10 21:33:03,599 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 983 in on_ready:  - Huitomi-희토미 Server
+[12.6276454925537109] 2019-10-10 21:33:03,599 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 1039 in on_ready: Not bound to any text channels
+[12.6286456584930420] 2019-10-10 21:33:03,600 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 1065 in on_ready: Not autojoining any voice channels
+[12.6286456584930420] 2019-10-10 21:33:03,600 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 266 in _join_startup_channels: Found resumable voice channel Huitomi-희토미 Server/나는 돼지멱이다-놀애방
+[12.6296460628509521] 2019-10-10 21:33:03,601 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 272 in _join_startup_channels: Found owner in "나는 돼지멱이다-놀애방"
+[12.6296460628509521] 2019-10-10 21:33:03,601 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 281 in _join_startup_channels: Attempting to join Huitomi-희토미 Server/나는 돼지멱이다-놀애방
+[13.8017394542694092] 2019-10-10 21:33:04,773 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 733 in deserialize_queue: Deserializing queue for 617274022291570708
+[14.1937716007232666] 2019-10-10 21:33:05,165 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 425 in get_player: Created player via deserialization for guild 617274022291570708 with 0 entries
+[14.1937716007232666] 2019-10-10 21:33:05,165 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 297 in _join_startup_channels: Joined Huitomi-희토미 Server/나는 돼지멱이다-놀애방
+[14.1947715282440186] 2019-10-10 21:33:05,166 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 532 in on_player_stop: Running on_player_stop
+[90.5513877868652344] 2019-10-10 21:34:21,522 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 2706 in on_message: 518087838982733859/CiiQ#7986: !nplay buttercup
+[93.6206326484680176] 2019-10-10 21:34:24,592 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 1408 in cmd_play: {'url': 'ytsearch:buttercup', 'webpage_url': 'buttercup', 'extractor': 'generic', '_type': 'url', 'ie_key': None, 'extractor_key': 'Generic', 'webpage_url_basename': 'buttercup'}
+[98.2966370582580566] 2019-10-10 21:34:29,268 - DEBUG - musicbot.entry | In entry.py::MainThread(9624), line 56 in get_ready_future: Created future for None
+[98.2996368408203125] 2019-10-10 21:34:29,271 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 624 in on_player_entry_added: Running on_player_entry_added
+[98.2996368408203125] 2019-10-10 21:34:29,271 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 709 in serialize_queue: Serializing queue for 617274022291570708
+[98.3016378879547119] 2019-10-10 21:34:29,273 - INFO - musicbot.entry | In entry.py::MainThread(9624), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=eYDI8b5Nn5s
+[99.7946038246154785] 2019-10-10 21:34:30,766 - INFO - musicbot.entry | In entry.py::MainThread(9624), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=eYDI8b5Nn5s
+[100.3048305511474609] 2019-10-10 21:34:31,276 - DEBUG - musicbot.entry | In entry.py::MainThread(9624), line 56 in get_ready_future: Created future for audio_cache\youtube-eYDI8b5Nn5s-MV_Jack_Stauber_-_Buttercup.webm
+[100.3048305511474609] 2019-10-10 21:34:31,276 - FFMPEG - musicbot.player | In player.py::MainThread(9624), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-eYDI8b5Nn5s-MV_Jack_Stauber_-_Buttercup.webm
+[100.3138313293457031] 2019-10-10 21:34:31,285 - DEBUG - musicbot.player | In player.py::MainThread(9624), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x000001A9EFB30F28> using <discord.voice_client.VoiceClient object at 0x000001A9EF85A470>
+[100.3148314952850342] 2019-10-10 21:34:31,286 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 460 in on_player_play: Running on_player_play
+[100.3158316612243652] 2019-10-10 21:34:31,287 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 709 in serialize_queue: Serializing queue for 617274022291570708
+[213.9266357421875000] 2019-10-10 21:36:24,898 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 2968 in on_voice_state_update: Pausing in Huitomi-희토미 Server/나는 돼지멱이다-놀애방 (empty channel or member deafened)
+[213.9286363124847412] 2019-10-10 21:36:24,900 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 527 in on_player_pause: Running on_player_pause
+[214.8727097511291504] 2019-10-10 21:36:25,844 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 2925 in on_voice_state_update: Unpausing in Huitomi-희토미 Server/나는 돼지멱이다-놀애방
+[214.8737108707427979] 2019-10-10 21:36:25,845 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 523 in on_player_resume: Running on_player_resume
+[227.9658477306365967] 2019-10-10 21:36:38,937 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 2706 in on_message: 518087838982733859/CiiQ#7986: !nhelp
+[249.4821307659149170] 2019-10-10 21:37:00,453 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 2706 in on_message: 518087838982733859/CiiQ#7986: !nplay kirb
+[251.7363283634185791] 2019-10-10 21:37:02,707 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 1408 in cmd_play: {'url': 'ytsearch:kirb', 'webpage_url': 'kirb', 'extractor': 'generic', '_type': 'url', 'ie_key': None, 'extractor_key': 'Generic', 'webpage_url_basename': 'kirb'}
+[256.0946283340454102] 2019-10-10 21:37:07,066 - DEBUG - musicbot.entry | In entry.py::MainThread(9624), line 56 in get_ready_future: Created future for None
+[256.0966293811798096] 2019-10-10 21:37:07,068 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 624 in on_player_entry_added: Running on_player_entry_added
+[256.0966293811798096] 2019-10-10 21:37:07,068 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 709 in serialize_queue: Serializing queue for 617274022291570708
+[256.0986294746398926] 2019-10-10 21:37:07,070 - INFO - musicbot.entry | In entry.py::MainThread(9624), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=4Y4dntIBiPI
+[257.5007462501525879] 2019-10-10 21:37:08,472 - INFO - musicbot.entry | In entry.py::MainThread(9624), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=4Y4dntIBiPI
+[279.1525199413299561] 2019-10-10 21:37:30,124 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 2706 in on_message: 518087838982733859/CiiQ#7986: !nresume
+[279.1535201072692871] 2019-10-10 21:37:30,125 - ERROR - musicbot.bot | In bot.py::MainThread(9624), line 2835 in on_message: Error in resume: CommandError: Player is not paused.
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\희훈봇\MusicBot\musicbot\bot.py", line 2813, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\User\Desktop\희훈봇\MusicBot\musicbot\bot.py", line 1967, in cmd_resume
+    raise exceptions.CommandError(self.str.get('cmd-resume-none', 'Player is not paused.'), expire_in=30)
+musicbot.exceptions.CommandError: Player is not paused.
+[288.4152121543884277] 2019-10-10 21:37:39,386 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 2706 in on_message: 518087838982733859/CiiQ#7986: !nskip
+[288.4402074813842773] 2019-10-10 21:37:39,411 - DEBUG - musicbot.player | In player.py::Thread-10(23476), line 220 in _playback_finished: Deleting file: audio_cache\youtube-eYDI8b5Nn5s-MV_Jack_Stauber_-_Buttercup.webm
+[288.4422075748443604] 2019-10-10 21:37:39,413 - DEBUG - musicbot.player | In player.py::Thread-10(23476), line 225 in _playback_finished: File deleted: audio_cache\youtube-eYDI8b5Nn5s-MV_Jack_Stauber_-_Buttercup.webm
+[288.4522080421447754] 2019-10-10 21:37:39,423 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[288.8282389640808105] 2019-10-10 21:37:39,799 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 709 in serialize_queue: Serializing queue for 617274022291570708
+[288.8292396068572998] 2019-10-10 21:37:39,800 - DEBUG - musicbot.entry | In entry.py::MainThread(9624), line 56 in get_ready_future: Created future for audio_cache\youtube-4Y4dntIBiPI-kirb_extended.webm
+[288.8292396068572998] 2019-10-10 21:37:39,800 - FFMPEG - musicbot.player | In player.py::MainThread(9624), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-4Y4dntIBiPI-kirb_extended.webm
+[288.8372395038604736] 2019-10-10 21:37:39,808 - DEBUG - musicbot.player | In player.py::MainThread(9624), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x000001A9EFB96A90> using <discord.voice_client.VoiceClient object at 0x000001A9EF85A470>
+[288.8382406234741211] 2019-10-10 21:37:39,809 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 460 in on_player_play: Running on_player_play
+[288.8392417430877686] 2019-10-10 21:37:39,810 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 709 in serialize_queue: Serializing queue for 617274022291570708
+[438.1390697956085205] 2019-10-10 21:40:09,110 - DEBUG - musicbot.player | In player.py::Thread-17(1656), line 220 in _playback_finished: Deleting file: audio_cache\youtube-4Y4dntIBiPI-kirb_extended.webm
+[438.1410703659057617] 2019-10-10 21:40:09,112 - DEBUG - musicbot.player | In player.py::Thread-17(1656), line 225 in _playback_finished: File deleted: audio_cache\youtube-4Y4dntIBiPI-kirb_extended.webm
+[439.7892031669616699] 2019-10-10 21:40:10,760 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[440.0602252483367920] 2019-10-10 21:40:11,031 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 709 in serialize_queue: Serializing queue for 617274022291570708
+[440.0612244606018066] 2019-10-10 21:40:11,032 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 532 in on_player_stop: Running on_player_stop
+[515.1843535900115967] 2019-10-10 21:41:26,155 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 2706 in on_message: 518087838982733859/CiiQ#7986: !nplay kirb
+[517.5625302791595459] 2019-10-10 21:41:28,534 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 1408 in cmd_play: {'url': 'ytsearch:kirb', 'webpage_url': 'kirb', 'extractor': 'generic', '_type': 'url', 'ie_key': None, 'extractor_key': 'Generic', 'webpage_url_basename': 'kirb'}
+[521.9816489219665527] 2019-10-10 21:41:32,953 - DEBUG - musicbot.entry | In entry.py::MainThread(9624), line 56 in get_ready_future: Created future for None
+[521.9836461544036865] 2019-10-10 21:41:32,955 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 624 in on_player_entry_added: Running on_player_entry_added
+[521.9836461544036865] 2019-10-10 21:41:32,955 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 709 in serialize_queue: Serializing queue for 617274022291570708
+[521.9856464862823486] 2019-10-10 21:41:32,957 - INFO - musicbot.entry | In entry.py::MainThread(9624), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=4Y4dntIBiPI
+[523.3965406417846680] 2019-10-10 21:41:34,368 - INFO - musicbot.entry | In entry.py::MainThread(9624), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=4Y4dntIBiPI
+[523.9776370525360107] 2019-10-10 21:41:34,949 - DEBUG - musicbot.entry | In entry.py::MainThread(9624), line 56 in get_ready_future: Created future for audio_cache\youtube-4Y4dntIBiPI-kirb_extended.webm
+[523.9776370525360107] 2019-10-10 21:41:34,949 - FFMPEG - musicbot.player | In player.py::MainThread(9624), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-4Y4dntIBiPI-kirb_extended.webm
+[523.9855551719665527] 2019-10-10 21:41:34,957 - DEBUG - musicbot.player | In player.py::MainThread(9624), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x000001A9EFB30A58> using <discord.voice_client.VoiceClient object at 0x000001A9EF85A470>
+[523.9865562915802002] 2019-10-10 21:41:34,958 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 460 in on_player_play: Running on_player_play
+[523.9875612258911133] 2019-10-10 21:41:34,959 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 709 in serialize_queue: Serializing queue for 617274022291570708
+[554.9674522876739502] 2019-10-10 21:42:05,938 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 2706 in on_message: 518087838982733859/CiiQ#7986: !nplay crystal dolphin
+[557.4110729694366455] 2019-10-10 21:42:08,382 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 1408 in cmd_play: {'url': 'ytsearch:crystal dolphin', 'webpage_url': 'crystal dolphin', 'extractor': 'generic', '_type': 'url', 'ie_key': None, 'extractor_key': 'Generic', 'webpage_url_basename': 'crystal dolphin'}
+[561.7877478599548340] 2019-10-10 21:42:12,759 - DEBUG - musicbot.entry | In entry.py::MainThread(9624), line 56 in get_ready_future: Created future for None
+[561.7897481918334961] 2019-10-10 21:42:12,761 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 624 in on_player_entry_added: Running on_player_entry_added
+[561.7907483577728271] 2019-10-10 21:42:12,762 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 709 in serialize_queue: Serializing queue for 617274022291570708
+[561.7917490005493164] 2019-10-10 21:42:12,763 - INFO - musicbot.entry | In entry.py::MainThread(9624), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=4hdKXr8wGrk
+[563.1408090591430664] 2019-10-10 21:42:14,112 - INFO - musicbot.entry | In entry.py::MainThread(9624), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=4hdKXr8wGrk
+[568.3979151248931885] 2019-10-10 21:42:19,369 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 2706 in on_message: 518087838982733859/CiiQ#7986: !nskip
+[568.4145522117614746] 2019-10-10 21:42:19,386 - DEBUG - musicbot.player | In player.py::Thread-21(21768), line 220 in _playback_finished: Deleting file: audio_cache\youtube-4Y4dntIBiPI-kirb_extended.webm
+[568.4155519008636475] 2019-10-10 21:42:19,387 - DEBUG - musicbot.player | In player.py::Thread-21(21768), line 225 in _playback_finished: File deleted: audio_cache\youtube-4Y4dntIBiPI-kirb_extended.webm
+[568.6318142414093018] 2019-10-10 21:42:19,603 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[568.8976323604583740] 2019-10-10 21:42:19,869 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 709 in serialize_queue: Serializing queue for 617274022291570708
+[568.8986320495605469] 2019-10-10 21:42:19,870 - DEBUG - musicbot.entry | In entry.py::MainThread(9624), line 56 in get_ready_future: Created future for audio_cache\youtube-4hdKXr8wGrk-engelwood_-_crystal_dolphin.webm
+[568.8996331691741943] 2019-10-10 21:42:19,871 - FFMPEG - musicbot.player | In player.py::MainThread(9624), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-4hdKXr8wGrk-engelwood_-_crystal_dolphin.webm
+[568.9066345691680908] 2019-10-10 21:42:19,878 - DEBUG - musicbot.player | In player.py::MainThread(9624), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x000001A9EFB30A58> using <discord.voice_client.VoiceClient object at 0x000001A9EF85A470>
+[568.9076342582702637] 2019-10-10 21:42:19,879 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 460 in on_player_play: Running on_player_play
+[568.9086353778839111] 2019-10-10 21:42:19,880 - DEBUG - musicbot.bot | In bot.py::MainThread(9624), line 709 in serialize_queue: Serializing queue for 617274022291570708
+[598.4565510749816895] 2019-10-10 21:42:49,428 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 2706 in on_message: 518087838982733859/CiiQ#7986: !nhelp
+[628.2822391986846924] 2019-10-10 21:43:19,253 - INFO - musicbot.bot | In bot.py::MainThread(9624), line 2706 in on_message: 518087838982733859/CiiQ#7986: !nshutdown
+[628.5942645072937012] 2019-10-10 21:43:19,565 - DEBUG - musicbot.player | In player.py::Thread-26(22996), line 220 in _playback_finished: Deleting file: audio_cache\youtube-4hdKXr8wGrk-engelwood_-_crystal_dolphin.webm
+[628.5962643623352051] 2019-10-10 21:43:19,567 - DEBUG - musicbot.player | In player.py::Thread-26(22996), line 225 in _playback_finished: File deleted: audio_cache\youtube-4hdKXr8wGrk-engelwood_-_crystal_dolphin.webm
+[628.875286579] launcher-INFO: All done.
